@@ -1,0 +1,53 @@
+body{
+     font-family:  sans-serif;
+}
+.form{
+
+height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.login-form{
+     display: flex;
+     flex-direction: column;
+     border: 2px solid  ;
+     height: 90vh;
+     width: 30vw;
+     align-items: center;
+     justify-content: center;
+     border-radius: 4px;
+     background-color:aliceblue;
+     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+     box-shadow: 5px 5px 15px 5px #000000;
+}
+label{
+     padding-right: 130px;
+     padding-bottom: 8px;
+     padding-top: 25px;
+}
+.u{
+     padding-right: 155px;
+     padding-bottom: 8px;
+     padding-top: 25px;
+}
+.btn{
+     margin-top: 30px;
+     padding: 8px 16px;
+     margin-bottom: 10px;
+     color: #fff;
+     background-color: #387ed1;
+     border: none;
+     border-radius: 3px;
+}
+.btn:hover{
+     background-color: #5c5a5a;
+}
+.login-form input,textarea{
+  padding: 4px 16px;
+  border: 2px solid #5c5a5a;
+  border-radius: 4px;
+}
+.file{
+     width: 170px;
+}
